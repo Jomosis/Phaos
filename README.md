@@ -8,7 +8,7 @@ An AI agent-driven Snapchat, inspired by [Eliza](https://github.com/ai16z/eliza)
 - Editable destruction conditions after a certain time or after being read by several people
 
 ## Installation
-1. Clone the repository: `git clone https://github.com/yourusername/phaos.git`
+1. Clone the repository: `git clone https://github.com/Jomosis/phaos.git`
 2. Navigate to the project directory: `cd phaos`
 3. Install dependencies: `npm install`
 
