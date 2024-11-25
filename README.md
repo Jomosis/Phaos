@@ -2,10 +2,8 @@
 An AI agent-driven Snapchat, inspired by [Eliza](https://github.com/ai16z/eliza).
 
 ## Features
-- Interactive conversations
-- Personalized responses
-- User-friendly interface
-- Editable destruction conditions after a certain time or after being read by several people
+- AI driven truth prediction based on the data provided by users
+- Support Users to choose an interval or number of people to see the truth and then clear this truth on the platform
 
 ## Installation
 1. Clone the repository: `git clone https://github.com/Jomosis/phaos.git`
