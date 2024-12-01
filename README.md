@@ -4,6 +4,7 @@ An AI agent-driven Snapchat, inspired by [Eliza](https://github.com/ai16z/eliza)
 ## Features
 - AI driven truth prediction based on the data provided by users
 - Support Users to choose an interval or number of people to see the truth and then clear this truth on the platform
+- Use Tee to verify whether the data is really deleted
 
 ## Installation
 1. Clone the repository: `git clone https://github.com/Jomosis/phaos.git`
