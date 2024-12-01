@@ -1,7 +1,10 @@
+import { Button } from "~/components/ui/button";
 import logoDark from "./logo-dark.svg";
 import logoLight from "./logo-light.svg";
+import { useNavigate } from "react-router";
 
 export function Welcome() {
+  let navigate = useNavigate();
   return (
     <main className="flex items-center justify-center pt-16 pb-4">
       <div className="flex-1 flex flex-col items-center gap-16 min-h-0">
@@ -19,6 +22,11 @@ export function Welcome() {
             />
           </div>
         </header>
+        <div>
+          <Button onClick={() => navigate("/chat")}>
+            Start Chat
+          </Button>
+        </div>
         <div className="max-w-[800px] w-full space-y-6 px-4">
           <p className="leading-6 font-sans text-[2rem] text-gray-700 dark:text-gray-200 text-center">
             An AI agent-driven Snapchat, inspired by Eliza.
